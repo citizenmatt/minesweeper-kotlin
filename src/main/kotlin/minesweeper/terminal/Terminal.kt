@@ -106,7 +106,7 @@ class Terminal : UserInterface {
             CellState.MARKED -> "*"
             CellState.FREE -> when (cell.type) {
                 CellType.MINE -> "X"
-                CellType.NONE -> "/"
+                CellType.NONE -> " "
                 else -> cell.type.minesAround?.toString()!!
             }
         }
