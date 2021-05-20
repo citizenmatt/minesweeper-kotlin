@@ -1,0 +1,37 @@
+<GameStat>
+    <GamesWon>1870</GamesWon>
+    <GamesPlayed>15633</GamesPlayed>
+    <LowestScore>2674</LowestScore>
+    <HighestScore>1</HighestScore>
+    <AverageScore>1</AverageScore>
+    <HighScores>
+        <HighScore>
+            <Score>1</Score>
+            <Time>1441721333</Time>
+        </HighScore>
+
+        <HighScore>
+            <Score>1</Score>
+            <Time>1441721483</Time>
+        </HighScore>
+
+        <HighScore>
+            <Score>23</Score>
+            <Time>1441721371</Time>
+        </HighScore>
+
+        <HighScore>
+            <Score>78</Score>
+            <Time>1440800075</Time>
+        </HighScore>
+
+        <HighScore>
+            <Score>80</Score>
+            <Time>1441108663</Time>
+        </HighScore>
+    </HighScores>
+    <LongestWinStreak>5</LongestWinStreak>
+    <LongestLoseStreak>81</LongestLoseStreak>
+    <CurrentStreak>4</CurrentStreak>
+    <CurrentStreakTypeIsWin>false</CurrentStreakTypeIsWin>
+</GameStat>

@@ -1,0 +1,24 @@
+---
+GameStat:
+  GamesWon: '1870'
+  GamesPlayed: '15633'
+  LowestScore: '2674'
+  HighestScore: '1'
+  AverageScore: '1'
+  HighScores:
+    HighScore:
+      - Score: '1'
+        Time: '1441721333'
+      - Score: '1'
+        Time: '1441721483'
+      - Score: '23'
+        Time: '1441721371'
+      - Score: '78'
+        Time: '1440800075'
+      - Score: '80'
+        Time: '1441108663'
+  LongestWinStreak: '5'
+  LongestLoseStreak: '81'
+  CurrentStreak: '4'
+  CurrentStreakTypeIsWin: 'false'
+"#omit-xml-declaration": 'yes'
