@@ -2,7 +2,7 @@ package minesweeper.model
 
 import kotlin.random.Random
 
-class Field(private val sizeX: Int = 9, private val sizeY: Int = 9, private val mines: Int = 10) {
+class Field(private val sizeX: Int = 9, private val sizeY: Int = 9, private val mines: Int = 10, private val random: Random = Random) {
 
     private var initialized = false
 
@@ -90,8 +90,8 @@ class Field(private val sizeX: Int = 9, private val sizeY: Int = 9, private val 
 
         while (remainingMines > 0) {
 
-            val x = Random.nextInt(0, sizeX)
-            val y = Random.nextInt(0, sizeY)
+            val x = random.nextInt(0, sizeX)
+            val y = random.nextInt(0, sizeY)
 
             if (!excludedPositions.contains(Pair(x, y)) && board[x][y].type != CellType.MINE) {
                 board[x][y] = Cell(CellType.MINE, board[x][y].state)
